@@ -171,7 +171,38 @@ var myNumber2 = 1.632;
 console.log( myNumber.toPrecision(2)); // will show 3.5
 console.log( myNumber.toPrecision(5)); // will show 1.6320
 
-//Converting Variables to Numbers
-// Number()	Returns a number converted from its argument.
+var myNumber = 325;
+var myNumber2 = 157;
+//valueOf() returns a number as a number.
+console.log( myNumber.toPrecision(2)); // will show 3.5
+console.log( myNumber.toPrecision(5)); // will show 1.6320
+
+//Converting Variables to Numbers Using global javascript methods
+// Number()	Returns a number converted from its argument, and it can be use to convert 
+//javascript variables.
+    console.log(Number(true));  //outputs 1
+    console.log(Number(false)); //outputs 0
+    console.log(Number("10")) ; //outputs 10
+    console.log(Number("  10")); //Outputs 10
+    console.log(Number("10  ")); //outputs 10
+    console.log(Number(" 10  ")); //Outputs 10 
+    console.log(Number("10.33")); //outputs 10.33
+    console.log(Number("10,33")); //Outputs NaN
+    console.log(Number("10 33"));  //Outputs NaN
+    console.log(Number("John"));//Outputs NaN
+
+//PS: If the number cannot be converted, NaN (Not a Number) is returned.
+// The Number() Methods Used on Dates (Number() can also convert date to a number)
+var timeInterval = Number(new Date ("1970-01-01")); //Outputs 0 Note: The Date() method returns the number of milliseconds since (1.1.1970).
+var luke = Number(new Date("1970-01-02"))//
+console.log(timeInterval);
+console.log(luke);
+console.log(Number());
+
+
+
+
+
 // parseFloat()	Parses its argument and returns a floating point number
 // parseInt()	Parses its argument and returns a whole number
+
