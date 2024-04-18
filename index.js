@@ -134,52 +134,52 @@ var temperature = -17;
 //We can do more advanced operations using 
 //The built-in Math object and its methods
 
-var power = Math.pow(2, 4); //This does 2 raise to power 4
-console.log(power); //Outputs 16
+    var power = Math.pow(2, 4); //This does 2 raise to power 4
+    console.log(power); //Outputs 16
 
-var roundedNumber =Math.round(2.7); //Rounds to the nearest integer 
-console.log(roundedNumber); //Outputs 3
+    var roundedNumber =Math.round(2.7); //Rounds to the nearest integer 
+    console.log(roundedNumber); //Outputs 3
 
-var roundUp = Math.ceil(4.3); //Rounds to the next integer.
-console.log(roundUp); //Outputs 5
+    var roundUp = Math.ceil(4.3); //Rounds to the next integer.
+    console.log(roundUp); //Outputs 5
 
-var roundDown = Math.floor(4.6); //Rounds to the current integer
-console.log(roundDown); //Outputs 4
+    var roundDown = Math.floor(4.6); //Rounds to the current integer
+    console.log(roundDown); //Outputs 4
 
-var squareRoot = Math.sqrt(36) // Square root.
-console.log(squareRoot); //Outputs 6
+    var squareRoot = Math.sqrt(36) // Square root.
+    console.log(squareRoot); //Outputs 6
 
-var randomNumber = Math.random() 
-console.log(randomNumber); // The result is a random number between 0 and 1
+    var randomNumber = Math.random() 
+    console.log(randomNumber); // The result is a random number between 0 and 1
 
-//Methods of the number object
+    //Methods of the number object
 
-var myNumber = 3.78633;
-// toFixed() rounds it to a fixed number of decimal places
-console.log( myNumber.toFixed(2) ); // will show 3.79
-console.log( myNumber.toFixed(4) ); // will show 3.7863
+    var myNumber = 3.78633;
+    // toFixed() rounds it to a fixed number of decimal places
+    console.log( myNumber.toFixed(2) ); // will show 3.79
+    console.log( myNumber.toFixed(4) ); // will show 3.7863
 
-var myNumber = 325;
-var myNumber2 = 123;
-//The toString() method returns a number as a string.
-console.log( myNumber.toString()); // will show 325
-console.log( myNumber.toString()); // will show 123
+    var myNumber = 325;
+    var myNumber2 = 123;
+    //The toString() method returns a number as a string.
+    console.log( myNumber.toString()); // will show 325
+    console.log( myNumber.toString()); // will show 123
 
-var myNumber = 3.579388;
-var myNumber2 = 1.632;
-//toPrecision() returns a string, with a number written with a specified length:
-console.log( myNumber.toPrecision(2)); // will show 3.5
-console.log( myNumber.toPrecision(5)); // will show 1.6320
+    var myNumber = 3.579388;
+    var myNumber2 = 1.632;
+    //toPrecision() returns a string, with a number written with a specified length:
+    console.log( myNumber.toPrecision(2)); // will show 3.5
+    console.log( myNumber.toPrecision(5)); // will show 1.6320
 
-var myNumber = 325;
-var myNumber2 = 157;
-//valueOf() returns a number as a number.
-console.log( myNumber.toPrecision(2)); // will show 3.5
-console.log( myNumber.toPrecision(5)); // will show 1.6320
+    var myNumber = 325;
+    var myNumber2 = 157;
+    //valueOf() returns a number as a number.
+    console.log( myNumber.toPrecision(2)); // will show 3.5
+    console.log( myNumber.toPrecision(5)); // will show 1.6320
 
-//Converting Variables to Numbers Using global javascript methods
-// Number()	Returns a number converted from its argument, and it can be use to convert 
-//javascript variables.
+    //Converting Variables to Numbers Using global javascript methods
+    // Number()	Returns a number converted from its argument, and it can be use to convert 
+    //javascript variables.
     console.log(Number(true));  //outputs 1
     console.log(Number(false)); //outputs 0
     console.log(Number("10")) ; //outputs 10
@@ -206,3 +206,41 @@ console.log(Number());
 // parseFloat()	Parses its argument and returns a floating point number
 // parseInt()	Parses its argument and returns a whole number
 
+
+
+//Conditional statements Using if/elseif/else statements
+if(true)
+{
+    //runs the code in this block if the condition is true
+}
+else if(true)
+{
+    //run the code in this block instead when if condition returns false
+}
+else
+{
+    //run code in this block if any of the 2 mentione above returns false!
+}
+
+
+//Logical OR operator (||)
+if(true || false)
+{
+    //runs the code in this block if one of the above condition or both conditions returns true
+}
+else
+{
+    //runs the code in this block when the condition in the if statement returns false
+}
+
+//Logical AND operator (&&)
+
+if(true && false)
+{
+    //runs the code in this block if both conditions returns true
+}
+else {
+    //runs the code in this block when none of the if conditions or both conditions returns false
+}
+
+//Grade check to determine if the the student is approved or not
